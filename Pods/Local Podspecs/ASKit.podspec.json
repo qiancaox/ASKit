@@ -1,0 +1,34 @@
+{
+  "name": "ASKit",
+  "version": "0.0.1.12c3p1",
+  "summary": "All",
+  "homepage": "https://github.com/qiancaox/ASKit",
+  "license": "MIT",
+  "authors": {
+    "Amt Super": "qiancaoxiang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qiancaox/ASKit.git",
+    "tag": "0.0.1.12c3p1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ASKit/*.swift",
+  "dependencies": {
+    "ASCore": [
+      "~>0.0.1.12c3p1"
+    ],
+    "ASFire": [
+      "~>0.0.1.12c3p1"
+    ],
+    "ASKeychain": [
+      "~>0.0.1.12c3p1"
+    ],
+    "ASRx": [
+      "~>0.0.1.12c3p1"
+    ]
+  },
+  "swift_version": "5.0"
+}

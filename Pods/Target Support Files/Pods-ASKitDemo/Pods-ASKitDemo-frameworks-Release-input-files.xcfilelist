@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-ASKitDemo/Pods-ASKitDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ASCore/ASCore.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/Result/Result.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework
