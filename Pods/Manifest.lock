@@ -1,21 +1,32 @@
 PODS:
   - Alamofire (4.9.1)
-  - ASCore (0.0.1.12c3p1):
-    - ASCore/Extensions (= 0.0.1.12c3p1)
-    - ASCore/Keychain (= 0.0.1.12c3p1)
-    - ASCore/Networking (= 0.0.1.12c3p1)
-    - ASCore/ReactiveX_Swift (= 0.0.1.12c3p1)
-    - ASCore/Utilities (= 0.0.1.12c3p1)
-  - ASCore/Extensions (0.0.1.12c3p1):
+  - ASCore (1.0.0):
+    - ASCore/Extensions (= 1.0.0)
+    - ASCore/Keychain (= 1.0.0)
+    - ASCore/Networking (= 1.0.0)
+    - ASCore/ReactiveX_Swift (= 1.0.0)
+    - ASCore/Utilities (= 1.0.0)
+  - ASCore/Extensions (1.0.0):
     - ASCore/Utilities
-  - ASCore/Keychain (0.0.1.12c3p1):
+  - ASCore/Keychain (1.0.0):
     - SAMKeychain (~> 1.5.3)
-  - ASCore/Networking (0.0.1.12c3p1):
+  - ASCore/Networking (1.0.0):
     - HandyJSON (~> 5.0.2)
     - Moya/RxSwift (~> 13.0.1)
-  - ASCore/ReactiveX_Swift (0.0.1.12c3p1):
+  - ASCore/ReactiveX_Swift (1.0.0):
     - RxCocoa (~> 4.5.0)
-  - ASCore/Utilities (0.0.1.12c3p1)
+  - ASCore/Utilities (1.0.0)
+  - ASKit (1.0.0):
+    - ASCore (~> 1.0.0)
+    - ASKit/TextField (= 1.0.0)
+    - ASKit/Toast_HUD (= 1.0.0)
+    - SnapKit (~> 4.2.0)
+  - ASKit/TextField (1.0.0):
+    - ASCore (~> 1.0.0)
+    - SnapKit (~> 4.2.0)
+  - ASKit/Toast_HUD (1.0.0):
+    - ASCore (~> 1.0.0)
+    - SnapKit (~> 4.2.0)
   - HandyJSON (5.0.2)
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
@@ -28,34 +39,39 @@ PODS:
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
   - SAMKeychain (1.5.3)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
-  - ASCore (from `ASCore.podspec`)
+  - ASKit (from `ASKit.podspec`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - ASCore
     - HandyJSON
     - Moya
     - Result
     - RxCocoa
     - RxSwift
     - SAMKeychain
+    - SnapKit
 
 EXTERNAL SOURCES:
-  ASCore:
-    :path: ASCore.podspec
+  ASKit:
+    :path: ASKit.podspec
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ASCore: 80181cf7a346e53b98f1da03b93fa7664365990e
+  ASCore: 11c6590abdf7a1f1da826e437c047f813c3ed112
+  ASKit: d5ef97f1f7067cb6686d3a854e6c2afc1359da14
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 828405ae24cc9eec00bb8b4dcaa3dd780a0c0748
+PODFILE CHECKSUM: 02b3b8408a854ddb110977dd247593e84d4f065e
 
 COCOAPODS: 1.10.0.beta.2

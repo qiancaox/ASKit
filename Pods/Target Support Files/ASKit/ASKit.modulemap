@@ -1,0 +1,6 @@
+framework module ASKit {
+  umbrella header "ASKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

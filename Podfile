@@ -6,6 +6,6 @@ platform :ios, '8.0'
 
 target 'ASKitDemo' do
 
-  pod 'ASCore', :path => 'ASCore.podspec'
+  pod 'ASKit', :path => 'ASKit.podspec'
 
 end
