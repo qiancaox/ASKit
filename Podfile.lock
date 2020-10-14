@@ -42,12 +42,12 @@ PODS:
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - ASCore (from `ASCore.podspec`)
   - ASKit (from `ASKit.podspec`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - ASCore
     - HandyJSON
     - Moya
     - Result
@@ -57,6 +57,8 @@ SPEC REPOS:
     - SnapKit
 
 EXTERNAL SOURCES:
+  ASCore:
+    :path: ASCore.podspec
   ASKit:
     :path: ASKit.podspec
 
@@ -72,6 +74,6 @@ SPEC CHECKSUMS:
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 02b3b8408a854ddb110977dd247593e84d4f065e
+PODFILE CHECKSUM: 831921756bfee8cdd11b0dc5fc62230cabf4ae14
 
 COCOAPODS: 1.10.0.beta.2
